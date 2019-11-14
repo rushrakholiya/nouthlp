@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src * gap: ws: https://ssl.gstatic.com;style-src * 'unsafe-inline' 'self' data: blob:;script-src * 'unsafe-inline' 'unsafe-eval' data: blob:;img-src * data: 'unsafe-inline' 'self' content:;fmedia-src mediastream;">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+
+	<title>Nouthlp App</title>
+	
+	<link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" >
+
+
+</head>
+
+<body class="nh-login-body">
+	<div class="appLoader">
+		<img src="assets/images/app-loader.gif">
+	</div>
+	<div class="login-error">
+		<div class="appErrMsg">
+			<h2>Nout HLP</h2>
+			<p>Your internet connection is Offline</p>
+			<div class="appErrClose">
+				<a href="index.html" class="close-btn">Go Online</a>
+			</div>
+		</div>
+	</div>
+	<div class="nh-login-signup">
+		<img src="assets/images/nouthlp-logo.png" class="img-responsive nh-logo-image" >
+	</div>
+	
+	<div class="nh-btn-group btn-group">
+		<a href="login.html" type="button" class="btn btn-danger" name="submit" >دخول</a>
+		<a href="#" type="button" class="btn btn-danger signup-button" >تسجيل</a>
+	</div>
+<script type="text/javascript">localStorage.setItem('currentPage', "index"); </script>
+<script type="text/javascript" src="cordova.js"></script>        
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>   
+
+</body>
+
+</html>

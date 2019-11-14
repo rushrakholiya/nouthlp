@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src * gap: ws: https://ssl.gstatic.com;style-src * 'unsafe-inline' 'self' data: blob:;script-src * 'unsafe-inline' 'unsafe-eval' data: blob:;img-src * data: 'unsafe-inline' 'self' content:;fmedia-src mediastream;">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Nouthlp App</title>
+	<link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" >
+</head>
+
+<body>
+
+<!----------------Header Start---------------->
+<div class="app-header">
+	<nav class="navbar-fixed-top no-header">
+		<div class="row">
+			<div class="col-xs-3 col-sm-3">
+				<a href="goal.html" class="no-back-i"><i class="fa fa-angle-left"></i> </a>
+				<a href="#" onClick="add_goal_in_category();" class="navbar-add-goal"><i class="fa fa-plus-circle"></i></a>
+			</div>
+			<div class="col-xs-6 col-sm-6 text-center">
+				<span id="category_name">Lorem Ipsum</span>
+			</div>
+			<div class="col-xs-3 col-sm-3 text-right">
+				<a href="index.html"><i class="fa fa-power-off"></i></a>
+			</div>
+		</div>
+	</nav>
+</div>
+<!----------------Header End---------------->
+
+<!----------------Body Start---------------->
+
+
+		<div class="tab-pane active" id="3">
+			<div class="login-error">
+				<div class="appErrMsg">
+					<h2>Nout HLP</h2>
+					<p>Are you sure?</p>					
+					<div class="appErrClose">
+						<a href="#" class="ok-btn left">Ok</a>
+						<a href="#" class="close-btn right">Close</a>
+					</div>
+				</div>
+			</div>
+			<ul class="nh-goal-list category-goals">				
+			</ul>
+		</div>
+
+<!----------------Body End---------------->
+
+<!----------------Footer Start---------------->
+<div class="nh-ui-navbar">
+	<ul class="nav nav-tabs">
+		<li><a href="order.html"><i class="fa fa-book"></i>Library</a></li>
+		<li><a href="alerts.html"><i class="fa fa-bell"></i>Alert</a></li>
+		<li><a href="material.html"><i class="fa fa-delicious"></i>Material</a></li>
+		<li class="active"><a href="goal.html"><i class="fa fa-bullseye"></i>Goal</a></li>
+		<li><a href="articals.html"><i class="fa fa-file-text-o"></i>Articals</a></li>
+		<li><a  href="store.html"><i class="fa fa-cart-plus"></i>Store</a></li>
+	</ul>
+</div>
+<!----------------Footer End---------------->
+
+<script type="text/javascript">localStorage.setItem('currentPage', "category-goals"); </script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

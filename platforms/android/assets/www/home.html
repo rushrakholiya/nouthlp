@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src * gap: ws: https://ssl.gstatic.com;style-src * 'unsafe-inline' 'self' data: blob:;script-src * 'unsafe-inline' 'unsafe-eval' data: blob:;img-src * data: 'unsafe-inline' 'self' content:;fmedia-src mediastream;">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no,shrink-to-fit=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>Nouthlp App</title>
+	<link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" >
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet" >
+</head>
+
+<body>
+
+<!----------------Header Start---------------->
+<div class="app-header">
+	<nav class="navbar-fixed-top no-header">
+		<div class="row">
+			<div class="col-xs-offset-2 col-xs-8 col-sm-8 text-center">
+				<span>البداية</span>
+			</div>
+			<div class="col-xs-2 col-sm-2 text-right">
+				<a href="#" onClick="logout();"><i class="fa fa-power-off"></i></a>
+			</div>
+		</div>
+	</nav>
+</div>
+<!----------------Header End---------------->
+
+<!----------------Body Start---------------->
+<div class="container">
+	<div class="appLoader">
+		<img src="assets/images/app-loader.gif">
+	</div>
+	<ul class="no-home-menu">		
+	</ul>
+</div>
+<!----------------Body End---------------->
+
+<!-- SET CURRENT PAGE -->
+<script type="text/javascript">localStorage.setItem('currentPage', "home"); </script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>  
+
+</body>
+
+</html>
